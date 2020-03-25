@@ -101,14 +101,14 @@ formatter.match({
   "location": "a_validLogin.launch_the_browser()"
 });
 formatter.result({
-  "duration": 7731799903,
+  "duration": 5773661409,
   "status": "passed"
 });
 formatter.match({
   "location": "a_validLogin.open_the_application()"
 });
 formatter.result({
-  "duration": 2474541418,
+  "duration": 7041908206,
   "status": "passed"
 });
 formatter.match({
@@ -125,7 +125,7 @@ formatter.match({
   "location": "a_validLogin.enter_username_as_password_and_click_on_login(String,String)"
 });
 formatter.result({
-  "duration": 3867755371,
+  "duration": 3606573076,
   "status": "passed"
 });
 formatter.scenario({
@@ -159,14 +159,14 @@ formatter.match({
   "location": "a_validLogin.launch_the_browser()"
 });
 formatter.result({
-  "duration": 3731061430,
+  "duration": 6078064124,
   "status": "passed"
 });
 formatter.match({
   "location": "a_validLogin.open_the_application()"
 });
 formatter.result({
-  "duration": 2216585515,
+  "duration": 6696713463,
   "status": "passed"
 });
 formatter.match({
@@ -183,7 +183,7 @@ formatter.match({
   "location": "a_validLogin.enter_username_as_password_and_click_on_login(String,String)"
 });
 formatter.result({
-  "duration": 3215402624,
+  "duration": 4383090358,
   "status": "passed"
 });
 formatter.scenario({
@@ -217,14 +217,14 @@ formatter.match({
   "location": "a_validLogin.launch_the_browser()"
 });
 formatter.result({
-  "duration": 3626928035,
+  "duration": 4250861124,
   "status": "passed"
 });
 formatter.match({
   "location": "a_validLogin.open_the_application()"
 });
 formatter.result({
-  "duration": 2230366578,
+  "duration": 5884089528,
   "status": "passed"
 });
 formatter.match({
@@ -241,7 +241,7 @@ formatter.match({
   "location": "a_validLogin.enter_username_as_password_and_click_on_login(String,String)"
 });
 formatter.result({
-  "duration": 2942267230,
+  "duration": 4380645546,
   "status": "passed"
 });
 formatter.scenario({
@@ -301,7 +301,7 @@ formatter.match({
   "location": "c_addTask.open_the_Application()"
 });
 formatter.result({
-  "duration": 5648298074,
+  "duration": 6402963950,
   "status": "passed"
 });
 formatter.match({
@@ -314,56 +314,56 @@ formatter.match({
   "location": "c_addTask.click_on_Administration(int)"
 });
 formatter.result({
-  "duration": 1437624447,
+  "duration": 1570103089,
   "status": "passed"
 });
 formatter.match({
   "location": "c_addTask.login_with_valid_credentials()"
 });
 formatter.result({
-  "duration": 1368109981,
+  "duration": 1253976669,
   "status": "passed"
 });
 formatter.match({
   "location": "c_addTask.click_on_add_task()"
 });
 formatter.result({
-  "duration": 1558514864,
+  "duration": 3626118743,
   "status": "passed"
 });
 formatter.match({
   "location": "c_addTask.enter_all_fields()"
 });
 formatter.result({
-  "duration": 766416267,
+  "duration": 707635060,
   "status": "passed"
 });
 formatter.match({
   "location": "c_addTask.select_Start_Date()"
 });
 formatter.result({
-  "duration": 2008913506,
+  "duration": 2170613399,
   "status": "passed"
 });
 formatter.match({
   "location": "c_addTask.select_End_Date()"
 });
 formatter.result({
-  "duration": 1435536299,
+  "duration": 1697863509,
   "status": "passed"
 });
 formatter.match({
   "location": "c_addTask.click_on_Add_button()"
 });
 formatter.result({
-  "duration": 1217834607,
+  "duration": 2885069711,
   "status": "passed"
 });
 formatter.match({
   "location": "c_addTask.assert_if_added_task_is_shown_in_task_list_table()"
 });
 formatter.result({
-  "duration": 57491060,
+  "duration": 67146631,
   "status": "passed"
 });
 formatter.scenario({
@@ -404,28 +404,28 @@ formatter.match({
   "location": "d_searchTask.open_the_application(int)"
 });
 formatter.result({
-  "duration": 8195309902,
+  "duration": 6752768632,
   "status": "passed"
 });
 formatter.match({
   "location": "d_searchTask.select_task_in_Type()"
 });
 formatter.result({
-  "duration": 71867418,
+  "duration": 61627329,
   "status": "passed"
 });
 formatter.match({
   "location": "d_searchTask.click_on_Search()"
 });
 formatter.result({
-  "duration": 1861942014,
+  "duration": 2638066196,
   "status": "passed"
 });
 formatter.match({
   "location": "d_searchTask.assert_if_previously_added_task_is_in_the_table_or_not()"
 });
 formatter.result({
-  "duration": 94183770,
+  "duration": 61913686,
   "status": "passed"
 });
 formatter.scenario({
@@ -455,21 +455,21 @@ formatter.match({
   "location": "e_sortTaskTable.view_the_website()"
 });
 formatter.result({
-  "duration": 5933089434,
+  "duration": 8998242342,
   "status": "passed"
 });
 formatter.match({
   "location": "e_sortTaskTable.click_on_finish_date()"
 });
 formatter.result({
-  "duration": 2295386572,
+  "duration": 5956170944,
   "status": "passed"
 });
 formatter.match({
   "location": "e_sortTaskTable.assert_if_finish_date_is_as_same_as_previously_added_task_finish_date()"
 });
 formatter.result({
-  "duration": 47849345,
+  "duration": 67895368,
   "status": "passed"
 });
 formatter.scenario({
@@ -504,28 +504,28 @@ formatter.match({
   "location": "f_screenshot.open_the_web_application()"
 });
 formatter.result({
-  "duration": 13704446130,
+  "duration": 26489189250,
   "status": "passed"
 });
 formatter.match({
   "location": "f_screenshot.select_task_in_Type_and_search()"
 });
 formatter.result({
-  "duration": 6007467865,
+  "duration": 13102193043,
   "status": "passed"
 });
 formatter.match({
   "location": "f_screenshot.take_screenshot_the_Displayed_tasks()"
 });
 formatter.result({
-  "duration": 1125476235,
+  "duration": 2299400703,
   "status": "passed"
 });
 formatter.match({
   "location": "f_screenshot.assert_the_tasks()"
 });
 formatter.result({
-  "duration": 49221602,
+  "duration": 72923039,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -617,7 +617,7 @@ formatter.match({
   "location": "g_logout.launch_web_application()"
 });
 formatter.result({
-  "duration": 17738608325,
+  "duration": 37347795564,
   "status": "passed"
 });
 formatter.match({
@@ -634,21 +634,21 @@ formatter.match({
   "location": "g_logout.type_username_as_password_login_to_the_web_application(String,String)"
 });
 formatter.result({
-  "duration": 2267945557,
+  "duration": 7316956753,
   "status": "passed"
 });
 formatter.match({
   "location": "g_logout.click_on_logout_to_logout_from_the_webApplication()"
 });
 formatter.result({
-  "duration": 2916389376,
+  "duration": 15618702710,
   "status": "passed"
 });
 formatter.match({
   "location": "g_logout.check_if_application_is_logout()"
 });
 formatter.result({
-  "duration": 77722342,
+  "duration": 63476847,
   "status": "passed"
 });
 });
