@@ -24,6 +24,4 @@ public class testRunner {
     public static void writeExtentReport() {
         Reporter.loadXMLConfig("src/extent-config.xml");
     }
-	
-	
 }
