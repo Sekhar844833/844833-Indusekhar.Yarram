@@ -10,20 +10,18 @@ public class sort {
 	WebDriver driver;
 	public void open()
 	{
+						// To launch chrome Browser
 		System.setProperty("webdriver.chrome.driver", "driver\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://examples.codecharge.com/TaskManager/Default.php");
 	}
+						// Method to sort the task list according to Finish Date
 	public void clickfinishDate() throws InterruptedException
 	{
-		/*
-		 * WebElement y=driver.findElement(By.xpath(
-		 * "/html/body/table[3]/tbody/tr/td/table[2]/tbody/tr[1]/td[8]/a")); Actions
-		 * action=new Actions(driver); action.doubleClick(y); Thread.sleep(5000);
-		 */
 		driver.findElement(By.xpath("/html/body/table[3]/tbody/tr/td/table[2]/tbody/tr[1]/td[8]/a")).click();
 	}
+						// Method to check added task details is in the list or not
 	public void Assert()
 	{
 		String e=driver.findElement(By.xpath("//a[text()='CTS']")).getText();

@@ -10,17 +10,21 @@ import org.openqa.selenium.interactions.Actions;
 
 public class addTask {
 	WebDriver driver;
+					//Add task locators
 	By Administration=By.xpath("//img[@src='images/administration-button.gif']");
 	By Username=By.name("login");
 	By Password=By.name("password");
 	By Login=By.name("DoLogin");
 	public void open()
 	{
+					// To launch chrome Browser
 		System.setProperty("webdriver.chrome.driver", "driver\\chromedriver.exe");
 		driver=new ChromeDriver();
+					//to maximize the window
 		driver.manage().window().maximize();
 		driver.get("http://examples.codecharge.com/TaskManager/Default.php");
 	}
+					//methods for login 
 	public void clickAdministration()
 	{
 		driver.findElement(Administration).click();
@@ -31,6 +35,7 @@ public class addTask {
 		driver.findElement(Password).sendKeys("admin");
 		driver.findElement(Login).click();
 	}
+					// Methods to AddTask Details
 	public void AddTask()
 	{
 		driver.findElement(By.xpath("(//img[@border='0'])[3]")).click();
@@ -51,7 +56,7 @@ public class addTask {
 		action.moveToElement(driver.findElement(By.xpath("/html/body/table[2]/tbody/tr/td/form/table[2]/tbody/tr[8]/td/a/img"))).click().build().perform();
 		String parent=driver.getWindowHandle();
 		System.out.println(parent);
-		Set<String>allWindows=driver.getWindowHandles();
+		Set<String>allWindows=driver.getWindowHandles();	//using window handle for date picker
 		for(String Window:allWindows)
 		{
 			System.out.println(Window);
@@ -61,8 +66,8 @@ public class addTask {
 			}
 		}
 		Actions actions=new Actions(driver);
-		actions.moveToElement(driver.findElement(By.xpath("/html/body/center/table/tbody/tr/td/table/tbody/tr[4]/td[3]/a"))).click().build().perform();
-		driver.switchTo().window(parent);
+		actions.moveToElement(driver.findElement(By.xpath("/html/body/center/table/tbody/tr/td/table/tbody/tr[4]/td[3]/a"))).click().build().perform();	// select start date in second window
+		driver.switchTo().window(parent);	//back to the current window 
 	}
 	public void endDate()
 	{
@@ -70,7 +75,7 @@ public class addTask {
 		action.moveToElement(driver.findElement(By.xpath("/html/body/table[2]/tbody/tr/td/form/table[2]/tbody/tr[9]/td/a/img"))).click().build().perform();
 		String parent=driver.getWindowHandle();
 		System.out.println(parent);
-		Set<String>allWindows=driver.getWindowHandles();
+		Set<String>allWindows=driver.getWindowHandles();	//using window handle for date picker
 		for(String Window:allWindows)
 		{
 			System.out.println(Window);
@@ -80,13 +85,15 @@ public class addTask {
 			}
 		}
 		Actions actions=new Actions(driver);
-		actions.moveToElement(driver.findElement(By.xpath("/html/body/center/table/tbody/tr/td/table/tbody/tr[5]/td[6]/a"))).click().build().perform();
-		driver.switchTo().window(parent);
+		actions.moveToElement(driver.findElement(By.xpath("/html/body/center/table/tbody/tr/td/table/tbody/tr[5]/td[6]/a"))).click().build().perform();	// select finish date in second window
+		driver.switchTo().window(parent);	//back to the current window 
 	}
+						//method to add Entered details
 	public void addButton()
 	{
 		driver.findElement(By.xpath("//input[@name='Insert']")).click();
 	}
+						//method to check added task details is in the list or not
 	public void Assert()
 	{
 		String c=driver.findElement(By.xpath("//a[text()='CTS']")).getText();

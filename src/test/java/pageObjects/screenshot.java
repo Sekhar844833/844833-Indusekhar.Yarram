@@ -14,12 +14,14 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class screenshot {
 	WebDriver driver;
 	public void open()
+						// To launch chrome Browser
 	{
 		System.setProperty("webdriver.chrome.driver", "driver\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://examples.codecharge.com/TaskManager/Default.php");
 	}
+						// Method to select the Task type and to search it in the Task table
 	public void typeTask()
 	{
 		driver.findElement(By.xpath("(//option[@value='1'])[5]")).click();
@@ -27,10 +29,12 @@ public class screenshot {
 	}
 	public void Screenshot() throws IOException
 	{
+						//To take screenshot 
 		TakesScreenshot ts=((TakesScreenshot)driver);
 		File source=ts.getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(source, new File("screenshot\\TaskScreenshot.jpg"));
 	}
+						// Method to check added task details is in the list or not
 	public void Assert()
 	{
 		String d=driver.findElement(By.xpath("//a[text()='CTS']")).getText();

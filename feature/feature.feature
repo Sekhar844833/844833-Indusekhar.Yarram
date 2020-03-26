@@ -5,10 +5,10 @@ Given launch the browser
 When open the application
 Then enter username as "<username>" & password "<password>" and click on login
 Examples:
-	| username | password |
-	| admin | admin |
-	| aadmin|  aadmin |
-	| badmin | badmin | 
+	| 	username 	| 	password 	|
+	| 	admin    	| 	admin    	|
+	| 	aadmin   	| 	aadmin  	|
+	| 	badmin   	| 	badmin   	| 
 
 Scenario: add Task in examples.codecharge.com/TaskManager/Default.php
 Given open the Application
@@ -37,12 +37,3 @@ Given Open the web application
 When select task in Type and search
 When take screenshot the Displayed tasks
 Then assert the tasks
-
-Scenario Outline: Logout from the application
-Given Launch web application
-When Type username as "<username>" & password "<password>" & login to the web application
-When click on logout to logout from the webApplication
-Then check if application is logout
-Examples:
-	| username | password |
-	| admin | admin | 
