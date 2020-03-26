@@ -3,7 +3,8 @@ package pageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
 
 public class validLogin {
 WebDriver driver;
@@ -18,10 +19,10 @@ public void launch(String browser)
 		System.setProperty("webdriver.chrome.driver", "driver\\chromedriver.exe");
 		driver=new ChromeDriver();
 	}
-	else if(browser.equalsIgnoreCase("Explorer"))
+	else if(browser.equalsIgnoreCase("firefox"))
 	{
-		System.setProperty("webdriver.chrome.driver", "driver\\IEDriverServer.exe");
-		driver=new InternetExplorerDriver();
+		System.setProperty("webdriver.gecko.driver", "driver\\geckodriver.exe");
+		driver=new FirefoxDriver();
 	}
 	
 	driver.manage().window().maximize();

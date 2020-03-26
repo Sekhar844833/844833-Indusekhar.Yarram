@@ -101,14 +101,14 @@ formatter.match({
   "location": "a_validLogin.launch_the_browser()"
 });
 formatter.result({
-  "duration": 5773661409,
+  "duration": 13497982670,
   "status": "passed"
 });
 formatter.match({
   "location": "a_validLogin.open_the_application()"
 });
 formatter.result({
-  "duration": 7041908206,
+  "duration": 4174885662,
   "status": "passed"
 });
 formatter.match({
@@ -125,7 +125,7 @@ formatter.match({
   "location": "a_validLogin.enter_username_as_password_and_click_on_login(String,String)"
 });
 formatter.result({
-  "duration": 3606573076,
+  "duration": 5181002824,
   "status": "passed"
 });
 formatter.scenario({
@@ -159,14 +159,14 @@ formatter.match({
   "location": "a_validLogin.launch_the_browser()"
 });
 formatter.result({
-  "duration": 6078064124,
+  "duration": 13053612410,
   "status": "passed"
 });
 formatter.match({
   "location": "a_validLogin.open_the_application()"
 });
 formatter.result({
-  "duration": 6696713463,
+  "duration": 9337851070,
   "status": "passed"
 });
 formatter.match({
@@ -183,7 +183,7 @@ formatter.match({
   "location": "a_validLogin.enter_username_as_password_and_click_on_login(String,String)"
 });
 formatter.result({
-  "duration": 4383090358,
+  "duration": 5322555085,
   "status": "passed"
 });
 formatter.scenario({
@@ -217,14 +217,14 @@ formatter.match({
   "location": "a_validLogin.launch_the_browser()"
 });
 formatter.result({
-  "duration": 4250861124,
+  "duration": 18910209092,
   "status": "passed"
 });
 formatter.match({
   "location": "a_validLogin.open_the_application()"
 });
 formatter.result({
-  "duration": 5884089528,
+  "duration": 11802576290,
   "status": "passed"
 });
 formatter.match({
@@ -241,7 +241,7 @@ formatter.match({
   "location": "a_validLogin.enter_username_as_password_and_click_on_login(String,String)"
 });
 formatter.result({
-  "duration": 4380645546,
+  "duration": 5468826593,
   "status": "passed"
 });
 formatter.scenario({
@@ -301,7 +301,7 @@ formatter.match({
   "location": "c_addTask.open_the_Application()"
 });
 formatter.result({
-  "duration": 6402963950,
+  "duration": 45503529685,
   "status": "passed"
 });
 formatter.match({
@@ -314,56 +314,56 @@ formatter.match({
   "location": "c_addTask.click_on_Administration(int)"
 });
 formatter.result({
-  "duration": 1570103089,
+  "duration": 5467928007,
   "status": "passed"
 });
 formatter.match({
   "location": "c_addTask.login_with_valid_credentials()"
 });
 formatter.result({
-  "duration": 1253976669,
+  "duration": 1645386777,
   "status": "passed"
 });
 formatter.match({
   "location": "c_addTask.click_on_add_task()"
 });
 formatter.result({
-  "duration": 3626118743,
+  "duration": 12524883302,
   "status": "passed"
 });
 formatter.match({
   "location": "c_addTask.enter_all_fields()"
 });
 formatter.result({
-  "duration": 707635060,
+  "duration": 11272968609,
   "status": "passed"
 });
 formatter.match({
   "location": "c_addTask.select_Start_Date()"
 });
 formatter.result({
-  "duration": 2170613399,
+  "duration": 16184144542,
   "status": "passed"
 });
 formatter.match({
   "location": "c_addTask.select_End_Date()"
 });
 formatter.result({
-  "duration": 1697863509,
+  "duration": 5254731564,
   "status": "passed"
 });
 formatter.match({
   "location": "c_addTask.click_on_Add_button()"
 });
 formatter.result({
-  "duration": 2885069711,
+  "duration": 4667550200,
   "status": "passed"
 });
 formatter.match({
   "location": "c_addTask.assert_if_added_task_is_shown_in_task_list_table()"
 });
 formatter.result({
-  "duration": 67146631,
+  "duration": 3261525102,
   "status": "passed"
 });
 formatter.scenario({
@@ -404,29 +404,27 @@ formatter.match({
   "location": "d_searchTask.open_the_application(int)"
 });
 formatter.result({
-  "duration": 6752768632,
-  "status": "passed"
+  "duration": 35192222583,
+  "error_message": "org.openqa.selenium.WebDriverException: Timed out waiting for driver server to start.\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027YSR9440236052\u0027, ip: \u0027192.168.43.224\u0027, os.name: \u0027Windows 8.1\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.3\u0027, java.version: \u002711.0.6\u0027\nDriver info: driver.version: ChromeDriver\r\n\tat org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:202)\r\n\tat org.openqa.selenium.remote.service.DriverService.start(DriverService.java:188)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat pageObjects.searchTask.open(searchTask.java:13)\r\n\tat stepDefinitions.d_searchTask.open_the_application(d_searchTask.java:12)\r\n\tat ✽.Given open the application7(feature/feature.feature:25)\r\nCaused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://localhost:27092/status] to be available after 20002 ms\r\n\tat org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:100)\r\n\tat org.openqa.selenium.remote.service.DriverService.waitUntilAvailable(DriverService.java:197)\r\n\tat org.openqa.selenium.remote.service.DriverService.start(DriverService.java:188)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:79)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat pageObjects.searchTask.open(searchTask.java:13)\r\n\tat stepDefinitions.d_searchTask.open_the_application(d_searchTask.java:12)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)\r\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)\r\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:300)\r\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\r\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:44)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:89)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:41)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:542)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:770)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\r\nCaused by: java.util.concurrent.TimeoutException\r\n\tat java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)\r\n\tat com.google.common.util.concurrent.SimpleTimeLimiter.callWithTimeout(SimpleTimeLimiter.java:156)\r\n\tat org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:75)\r\n\t... 49 more\r\n",
+  "status": "failed"
 });
 formatter.match({
   "location": "d_searchTask.select_task_in_Type()"
 });
 formatter.result({
-  "duration": 61627329,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "d_searchTask.click_on_Search()"
 });
 formatter.result({
-  "duration": 2638066196,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "d_searchTask.assert_if_previously_added_task_is_in_the_table_or_not()"
 });
 formatter.result({
-  "duration": 61913686,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "line": 30,
@@ -455,21 +453,21 @@ formatter.match({
   "location": "e_sortTaskTable.view_the_website()"
 });
 formatter.result({
-  "duration": 8998242342,
+  "duration": 103849597868,
   "status": "passed"
 });
 formatter.match({
   "location": "e_sortTaskTable.click_on_finish_date()"
 });
 formatter.result({
-  "duration": 5956170944,
+  "duration": 7023244189,
   "status": "passed"
 });
 formatter.match({
   "location": "e_sortTaskTable.assert_if_finish_date_is_as_same_as_previously_added_task_finish_date()"
 });
 formatter.result({
-  "duration": 67895368,
+  "duration": 60642528,
   "status": "passed"
 });
 formatter.scenario({
@@ -504,28 +502,28 @@ formatter.match({
   "location": "f_screenshot.open_the_web_application()"
 });
 formatter.result({
-  "duration": 26489189250,
+  "duration": 36447316455,
   "status": "passed"
 });
 formatter.match({
   "location": "f_screenshot.select_task_in_Type_and_search()"
 });
 formatter.result({
-  "duration": 13102193043,
+  "duration": 4720805946,
   "status": "passed"
 });
 formatter.match({
   "location": "f_screenshot.take_screenshot_the_Displayed_tasks()"
 });
 formatter.result({
-  "duration": 2299400703,
+  "duration": 6871420023,
   "status": "passed"
 });
 formatter.match({
   "location": "f_screenshot.assert_the_tasks()"
 });
 formatter.result({
-  "duration": 72923039,
+  "duration": 54514076,
   "status": "passed"
 });
 formatter.scenarioOutline({
@@ -617,7 +615,7 @@ formatter.match({
   "location": "g_logout.launch_web_application()"
 });
 formatter.result({
-  "duration": 37347795564,
+  "duration": 30578874955,
   "status": "passed"
 });
 formatter.match({
@@ -634,21 +632,21 @@ formatter.match({
   "location": "g_logout.type_username_as_password_login_to_the_web_application(String,String)"
 });
 formatter.result({
-  "duration": 7316956753,
+  "duration": 2201445539,
   "status": "passed"
 });
 formatter.match({
   "location": "g_logout.click_on_logout_to_logout_from_the_webApplication()"
 });
 formatter.result({
-  "duration": 15618702710,
+  "duration": 2194525756,
   "status": "passed"
 });
 formatter.match({
   "location": "g_logout.check_if_application_is_logout()"
 });
 formatter.result({
-  "duration": 63476847,
+  "duration": 86950431,
   "status": "passed"
 });
 });
