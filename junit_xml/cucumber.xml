@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="137.272055">
-    <testcase classname="http://examples.codecharge.com/TaskManager/Default.php" name="Data Driven Login to examples.codecharge.com/TaskManager/Default.php" time="21.04349">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="150.530494">
+    <testcase classname="http://examples.codecharge.com/TaskManager/Default.php" name="Data Driven Login to examples.codecharge.com/TaskManager/Default.php" time="28.873241">
         <system-out>
             <![CDATA[Given launch the browser....................................................passed
 When open the application...................................................passed
@@ -8,7 +8,7 @@ Then enter username as "admin" & password "admin" and click on login........pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="http://examples.codecharge.com/TaskManager/Default.php" name="Data Driven Login to examples.codecharge.com/TaskManager/Default.php 2" time="17.764608">
+    <testcase classname="http://examples.codecharge.com/TaskManager/Default.php" name="Data Driven Login to examples.codecharge.com/TaskManager/Default.php 2" time="11.238423">
         <system-out>
             <![CDATA[Given launch the browser....................................................passed
 When open the application...................................................passed
@@ -16,7 +16,7 @@ Then enter username as "aadmin" & password "aadmin" and click on login......pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="http://examples.codecharge.com/TaskManager/Default.php" name="Data Driven Login to examples.codecharge.com/TaskManager/Default.php 3" time="17.157676">
+    <testcase classname="http://examples.codecharge.com/TaskManager/Default.php" name="Data Driven Login to examples.codecharge.com/TaskManager/Default.php 3" time="13.924141">
         <system-out>
             <![CDATA[Given launch the browser....................................................passed
 When open the application...................................................passed
@@ -24,7 +24,7 @@ Then enter username as "badmin" & password "badmin" and click on login......pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="http://examples.codecharge.com/TaskManager/Default.php" name="add Task in examples.codecharge.com/TaskManager/Default.php" time="24.283675">
+    <testcase classname="http://examples.codecharge.com/TaskManager/Default.php" name="add Task in examples.codecharge.com/TaskManager/Default.php" time="37.741615">
         <system-out>
             <![CDATA[Given open the Application..................................................passed
 When click on Administration2...............................................passed
@@ -38,7 +38,7 @@ Then assert if added task is shown in task list table.......................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="http://examples.codecharge.com/TaskManager/Default.php" name="Search Task in Type" time="12.200338">
+    <testcase classname="http://examples.codecharge.com/TaskManager/Default.php" name="Search Task in Type" time="14.227073">
         <system-out>
             <![CDATA[Given open the application7.................................................passed
 When select task in Type....................................................passed
@@ -47,7 +47,7 @@ Then Assert if previously added task is in the table or not.................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="http://examples.codecharge.com/TaskManager/Default.php" name="Sort the Task Table according to finish date" time="14.976226">
+    <testcase classname="http://examples.codecharge.com/TaskManager/Default.php" name="Sort the Task Table according to finish date" time="25.579008">
         <system-out>
             <![CDATA[Given view the website......................................................passed
 When click on finish date...................................................passed
@@ -55,7 +55,7 @@ Then Assert if finish date is as same as previously added task finish date..pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="http://examples.codecharge.com/TaskManager/Default.php" name="screenshot the type Type from the page" time="29.846042">
+    <testcase classname="http://examples.codecharge.com/TaskManager/Default.php" name="screenshot the type Type from the page" time="18.946993">
         <system-out>
             <![CDATA[Given Open the web application..............................................passed
 When select task in Type and search.........................................passed
